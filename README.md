@@ -26,6 +26,7 @@ The 3D model was created with build123d. It was my first bigger project with it,
   </tr>
 </table>
 
+
 ## Build Steps
 <img src="img/pring.jpg" alt="bare 3d print" width="50%"/>
 First cut free the latch, that will later hold the xiao (from the back in the top right corner). 
@@ -38,7 +39,7 @@ The twist the not-marked end of the diodes and solder them to the other switch c
 Bend the free end of the diodes upward, wrap the row wires around them and solder those as well. (My last wire was a bit to short, so I used the leg of the diode to bridge the distance.)
 <img src="img/wired_finished.jpg" alt = "finished wiring" width="50%"/>
 Now you can trim any excess wire and screw in the backplate at the four corners.
-> [!NOTE] 
+
 > To flash zmk firmware you need to shortcut the gnd and rst pin of the xiao, without the backplate this can be done with tweezers. In hindsight a reset button in the case would have been nice.
 
 After putting on the keycaps the numpad should look something like this:
